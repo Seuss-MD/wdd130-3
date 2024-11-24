@@ -1,0 +1,382 @@
+body {
+  font-family: "Itim", Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 150px 1fr; 
+  padding: 0;
+  background-color: #f8333c;
+  align-items: center; 
+}
+
+#logo_link {
+  text-decoration: none;
+}
+
+.logo {
+  max-height: 200px; 
+  width: auto; 
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #dbd5b5;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Hero section with image and heading */
+#hero {
+  display: flex;
+  align-items: center; 
+  padding-top: 20px; 
+  padding-bottom: 40px; 
+}
+#hero img {
+  max-height: 700px;
+  max-width: 70%; 
+  border-radius: 10px; 
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#hero h1 {
+  font-family: "Delius";
+  color: #277c45;
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+/* Card Styling */
+#card {
+  background-color: #dbd5b5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 80px;
+}
+
+
+#card img {
+  max-width: 40%; 
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px; 
+}
+
+/* Text and button styles */
+#card .text {
+  text-align: center; 
+  font-size: 1.2rem;
+  color: #277c45;
+  width: 100%;
+  font-family: "Delius";
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+#card .text {
+  text-align: center; 
+  font-size: 1.2rem;
+  color: #277c45;
+  width: 100%;
+  font-family: "Delius";
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+#card p {
+  color: black;
+  font-size: 1rem;
+}
+
+#card .aboutme {
+  text-align: center; 
+  font-size: 7.2rem;
+  color: #277c45;
+  width: 100%;
+  font-family: "Delius";
+  margin-bottom: 10px;
+}
+#card .aboutme p{
+  font-size: 2rem;
+}
+#card .buttons {
+  display: flex; 
+  flex-direction: column; 
+  margin-left: 20px; 
+}
+
+#card .button {
+  margin-bottom: 10px;
+}
+
+#card .button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #277c45;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+
+#card .button a:hover {
+  background-color: #f8333c;
+}
+
+/*contactme */
+.get-in-touch {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.get-in-touch h1 {
+  color: #277c45;
+  font-size: 3.5rem;
+}
+
+.get-in-touch p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Vertical Cards Styling */
+.vertical-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.vertical-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.vertical-card h4 {
+  margin-top: 15px;
+  color: #277c45;
+  font-size: 1.5rem;
+}
+
+.vertical-card p {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Little Card Section */
+.circle {
+  width: 35px;        
+  height: 35px;      
+  background-color: #dbd5b5;  
+  border-radius: 50%; 
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.little-card {
+  background-color: #277c45;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.little-card p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+/* Contact Form Styling */
+#form h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+#form {
+  margin-top: 30px;
+  max-width: 600px;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+
+}
+
+#form label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px; 
+}
+
+#form input, #form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#form textarea {
+  height: 150px; 
+}
+
+#form .button button {
+  padding: 12px 20px;
+  background-color: #277c45;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#form .button button:hover {
+  background-color: #f8333c;
+}
+
+
+
+
+
+
+/* Gallery*/
+
+#gallery-welcome {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+#gallery-welcome h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#gallery-welcome p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#gallery-welcome img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Gallery Card Styling */
+.gallery-card {
+  background-color: white;
+  padding: 30px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 8px;
+}
+
+.gallery-card h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  color: #277c45;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.gallery-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+  text-align: center;
+}
+
+.gallery-card img {
+  width: 32%; 
+  height: auto;
+  border-radius: 8px;
+  margin: 1px;
+}
+
+
+/* Footer Styling */
+footer {
+  background-color: #277c45;
+  color: white;
+  text-align: center;
+}
+
+
+footer img.logo {
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+footer p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+}
+
+footer .footer-links p {
+  margin: 3px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social a {
+  margin: 0 10px;
+}
+
+footer .social img {
+  width: 30px;
+  height: auto;
+}
