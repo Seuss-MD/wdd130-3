@@ -1,6 +1,7 @@
 body {
   font-family: "Itim", Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: white;
+  margin: 0;
 }
 
 
@@ -173,9 +174,12 @@ section {
 
 /* Vertical Cards Styling */
 .vertical-card {
-  background-color: #fff;
-  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
   border-radius: 10px;
+  border-style: solid; 
+  border-width: thin;
   width: 30%;
   text-align: center;
 }
